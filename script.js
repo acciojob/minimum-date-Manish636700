@@ -1,5 +1,14 @@
 function minDate(dates) {
-		 return new Date(Math.min(...dates.map(date=>new Date(date))))
+		 let min=new Date(dates[0]);
+	for(int i=1; i<dates.length; i++)
+	{
+		let curr = new Date(dates[i]);
+			if(curr<min)
+			{
+				min = curr;
+			}
+	}
+	return min;
 }
 
 // Do not change the code
