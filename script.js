@@ -1,5 +1,5 @@
 function minDate(dates) {
-  //write you code here
+		 return new Date(Math.min(...dates.map(date=>new Date(date))))
 }
 
 // Do not change the code
