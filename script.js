@@ -1,6 +1,6 @@
 function minDate(dates) {
 		 let min=new Date(dates[0]);
-	for(int i=1; i<dates.length; i++)
+	for(let i=1; i<dates.length; i++)
 	{
 		let curr = new Date(dates[i]);
 			if(curr<min)
